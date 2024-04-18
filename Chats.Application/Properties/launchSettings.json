@@ -1,0 +1,52 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "LOCAL": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SWAGGER_URL": "http://localhost:5228"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5228"
+    },
+    "DEMO": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Demo",
+        "SWAGGER_URL": "http://localhost:5228",
+        "VaultFile": "vault.json"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5228"
+    },
+    "DEV": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Dev",
+        "SWAGGER_URL": "http://localhost:5228",
+        "VaultFile": "vault.json"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5228"
+    },
+    "PROD": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "SWAGGER_URL": "http://localhost:5228",
+        "VaultFile": "vault.json"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5228"
+    }
+  }
+}
